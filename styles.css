@@ -1,0 +1,17 @@
+:root{
+    --rich-black-fogra-29: #0d1b2aff;
+    --oxford-blue: #1b263bff;
+    --bdazzled-blue: #415a77ff;
+    --shadow-blue: #778da9ff;
+    --platinum: #e0e1ddff;
+}
+
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+html{
+    box-sizing: border-box;
+}
+
+
