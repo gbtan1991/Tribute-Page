@@ -9,26 +9,3 @@ html{
 }
 
 
-body{
-  background: linear-gradient(45deg, #707070 , #fff);   
-  
-}
-
-main{
-  border: 2px solid red;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  
-}
-
-.title, .description, .img-div, .img-caption, .tribute-info {
-  border: 3px solid green;
-   
-}
-
-#image{
-  display: block;
-  max-width: 100%;
-}
