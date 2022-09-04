@@ -1,11 +1,76 @@
+:root{
+  --floral-white: #fffcf2ff;
+--pale-silver: #ccc5b9ff;
+--black-olive: #403d39ff;
+--eerie-black: #252422ff;
+--flame: #eb5e28ff;
+}
+
+
 *, *::before, *::after{
   box-sizing: inherit;
-  padding: 0;
-  margin: 0;
+  
 }
 
 html{
   box-sizing: border-box;
+  font-size: 62.5%;
+  
+  
+}
+
+body{
+  background-color: var(--floral-white);
 }
 
 
+main{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--pale-silver);
+  text-align: center;
+  border-radius: 3px;
+}
+
+header{
+  margin: 30px auto;
+ 
+}
+
+
+h1{
+  font-size: 3.8rem;
+  font-family: 'Ubuntu Mono', monospace;
+  color: var(--eerie-black);
+  
+  
+}
+
+figure{
+  margin: 50px 0 150px 0;
+}
+
+
+section{
+  width: 99.5%;
+  background-color: var(--floral-white);
+  border-radius: 3px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.tribute-info{
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-description{
+  font-size: 1.4rem;
+}
