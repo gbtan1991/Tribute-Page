@@ -15,6 +15,7 @@
 html{
   box-sizing: border-box;
   font-size: 62.5%;
+  font-family: 'Ubuntu Mono', monospace;
   
   
 }
@@ -49,7 +50,7 @@ h1{
 }
 
 figure{
-  margin: 50px 0 150px 0;
+  margin: 50px 0 50px 0;
 }
 
 
@@ -72,5 +73,38 @@ section{
 }
 
 .info-description{
-  font-size: 1.4rem;
+  font-size: 1.6rem;
+}
+
+ul{
+ display: block; 
+ text-align: left; 
+ line-height: 2rem;
+ max-width: 800px;
+ 
+  
+  
+}
+
+section{
+  padding-bottom : 30px;
+}
+
+
+p, ul, li, figcaption, h3{
+  font-size: 1.6rem;
+}
+
+.spanName{
+  font-weight: bold;
+}
+
+
+.tribute-info{
+  display: flex;
+  flex-direction: column;
+}
+
+.tribute-link, h2{
+  color: var(--flame)
 }
